@@ -1,0 +1,13 @@
+Script started on 2024-02-18 11:32:46+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;leathur@DESKTOP-9G7LUG0: ~/full-stack-open-submission/part12-containers-applications/script-answers[01;32mleathur@DESKTOP-9G7LUG0[00m:[01;34m~/full-stack-open-submission/part12-containers-applications/script-answers[00m$ [K]0;leathur@DESKTOP-9G7LUG0: ~/full-stack-open-submission/part12-containers-applications/script-answers[01;32mleathur@DESKTOP-9G7LUG0[00m:[01;34m~/full-stack-open-submission/part12-containers-applications/script-answers[00m$ s
+udo docker container run -it ubuntu bash
+[sudo] password for leathur: 
+[?2004h]0;root@a8c93809b221: /root@a8c93809b221:/# mkdir usr/src/app
+[?2004l[?2004h]0;root@a8c93809b221: /root@a8c93809b221:/# cd usr/src/app
+[?2004l[?2004h]0;root@a8c93809b221: /usr/src/approot@a8c93809b221:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@a8c93809b221: /usr/src/approot@a8c93809b221:/usr/src/app# exit
+[?2004lexit
+]0;leathur@DESKTOP-9G7LUG0: ~/full-stack-open-submission/part12-containers-applications/script-answers[01;32mleathur@DESKTOP-9G7LUG0[00m:[01;34m~/full-stack-open-submission/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2024-02-18 11:33:54+07:00 [COMMAND_EXIT_CODE="0"]
