@@ -1,6 +1,6 @@
 services:
   app:
-    image: hello-front-dev
+    image: todo-frontend-dev
     build:
       context: ./todo-frontend
       dockerfile: dev.Dockerfile
@@ -8,10 +8,10 @@ services:
       - ./todo-frontend:/usr/src/app
     ports:
       - 3000:3000
-    container_name: hello-front-dev
+    container_name: todo-frontend-dev
 
   server:
-    image: server-dev
+    image: todo-server-dev
     build:
       context: ./todo-backend
       dockerfile: dev.Dockerfile
@@ -22,7 +22,7 @@ services:
     environment:
       - REDIS_URL=redis://redis:6379
       - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database
-    container_name: server-dev
+    container_name: todo-server-dev
 
   mongo:
     image: mongo
