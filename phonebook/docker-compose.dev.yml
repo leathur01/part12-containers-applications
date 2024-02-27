@@ -1,0 +1,20 @@
+services:
+  app:
+    image: phonebook-dev-ui
+    build:
+      context: ./frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./frontend:/usr/src/app
+    ports:
+      - 5173:5173
+
+  server:
+    image: phonebook-dev-server
+    build:
+      context: ./backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - 3002:3002
